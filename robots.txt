@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /blocks
+Disallow: /calendar
+Disallow: /help.php
+Disallow: /theme
