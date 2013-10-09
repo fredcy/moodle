@@ -1,0 +1,98 @@
+/* darkMoodle 1.1
+	Redesigned from the ground up for Moodle 1.9
+	It links with the standard theme in order to be as compatible as possible 
+	
+	Changelog
+	
+	20110419 - Bugfix for .headerforumlist .author link, white on white background.
+*/
+	
+/* MAIN */
+	
+	
+body {background: #ccc;}
+
+/* NAVIGATION */
+
+.navbar {
+	background: url('');
+	border:0px;
+	}
+	
+/* HEADER */
+
+.headermenu, .headermenu a:link, .headermenu a:visited {
+	color:#fff;
+}
+
+#header, #header-home {
+	background:url('header_bg.png');
+	color:#fff;
+}
+
+
+/* TEXT */
+
+h2 {
+	color:#000;
+	}
+a:link, a:visited{
+	color:#000;
+	text-decoration:none;
+}
+a:hover {
+	color:#00f;
+}
+
+/* BLOCKS */
+
+.headingblock {
+	color:#fff;
+	}
+.header, .header a:link, .header a:visited, .header h2 {
+	color:#fff;
+	}
+.commands {
+	background: #fff;
+	border:0px;
+}
+.header .commands, .header .title .commands {
+	background: none;
+}
+/* COURSE */
+
+.content {
+	background-color:#fff;
+	}
+.coursebox {
+	background-color:#fff;
+	}
+.generalbox {
+	background-color:#fff;
+}
+/* FORMS */
+
+.mform {
+	background:#eee;
+}
+.loginbox {
+	background:#fff;
+}
+#responseform {
+	background:#fff;
+}
+
+/* FORUMS */
+
+.header .topic{
+	background:#333;
+}
+.forumheaderlist {
+	background:#fff;
+}
+.author a:link, .author a:visited {
+	color: #fff;
+}
+.forumheaderlist .author a:link, .forumheaderlist .author a:visited {
+	color: #000;
+}

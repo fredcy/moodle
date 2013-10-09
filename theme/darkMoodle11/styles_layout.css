@@ -1,0 +1,46 @@
+/* MAIN */
+
+body {
+	margin:0px;
+	padding:0px;
+}
+
+#content {
+	margin-left:10px;
+	margin-right:10px;
+}
+
+/* HEADER */
+
+#header, #header-home {
+	height:54px;
+	margin:0px;
+	padding:0px;
+}
+
+#header img, #header-home img{
+	vertical-align:middle;
+}
+
+.headermenu {
+	padding-top:5px;
+	padding-right:10px;
+}
+
+/* BLOCKS */
+
+.commands {
+	padding-top:4px;
+	margin-bottom:-4px;
+	margin-left:-4px;
+	margin-right:-4px;
+}
+.sideblock .content {
+
+border-top:0px;
+
+/* FORMS */
+
+#mform1 {
+	padding: 5px;
+}
