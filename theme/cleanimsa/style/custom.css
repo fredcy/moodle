@@ -17,6 +17,29 @@ a.logo {
 }
 
 
+body {
+    background: url([[pix:theme|body]]) repeat-x fixed;
+    background-color: #DAE0EE;
+}
+
+#page-header {
+    background: url([[pix:theme|short_header]]) no-repeat;
+    background-color: white;
+}
+
+#page-header h1 {
+    margin-left: 10px;
+    margin-top: 16px;
+}
+
+#page-content {
+    background-color: white;
+}
+
+#page-navbar {
+    margin-top: 13px;
+}
+
 /* blue swoop background in top bar */
 .navbar .navbar-inner {
     background: url([[pix:theme|header_bkgrnd]]) no-repeat;
