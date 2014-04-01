@@ -20,6 +20,12 @@ a.logo {
 body {
     background: url([[pix:theme|body]]) repeat-x fixed;
     background-color: #DAE0EE;
+    padding-top: 53px;		/* shorter space for header/logo bar at top */
+}
+
+#page {
+    padding-left: 12px;		/* narrower margins (where page background is exposed) */
+    padding-right: 12px;
 }
 
 #page-header {
