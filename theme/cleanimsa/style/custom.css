@@ -27,6 +27,13 @@ body {
     padding-right: 12px;
 }
 
+@media (max-width: 767px) {
+    body {
+	padding-left: 0;	/* narrow margins in smaller widths too */
+	padding-right: 0;
+    }
+}
+
 #page-header {
     background: url([[pix:theme|short_header]]) no-repeat;
     background-color: white;
