@@ -20,7 +20,6 @@ a.logo {
 body {
     background: url([[pix:theme|body]]) repeat-x fixed;
     background-color: #DAE0EE;
-    padding-top: 53px;		/* shorter space for header/logo bar at top */
 }
 
 #page {
@@ -72,6 +71,14 @@ body {
 
 #region-main {
     padding-right: 10px;
+}
+
+/* bootstrap headings are too large; revert to typical defaults */
+h1 {    font-size: 2em; }
+h2 {    font-size: 1.5em; }
+h3 {    font-size: 1.17em; }
+h1, h2, h3 {
+    line-height: 20px;
 }
 
 /* Custom CSS Settings
