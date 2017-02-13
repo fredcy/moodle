@@ -157,8 +157,6 @@ class mod_forum_post_form extends moodleform {
                 if (forum_user_can_post_discussion($forum, $groupid, null, $cm, $modcontext)) {
                     // Build the data for the groupinfo select.
                     $groupinfo[$groupid] = $group->name;
-                } else {
-                    unset($groupdata[$groupid]);
                 }
             }
             $groupcount = count($groupinfo);
